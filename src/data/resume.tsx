@@ -4,7 +4,7 @@ import { Award, HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Marc",
   initials: "MA",
-  url: "https://dillion.io",
+  url: "https://www.marc-antoineourradour.fr/",
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/Paris",
   description:
@@ -61,7 +61,7 @@ export const DATA = {
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://www.youtube.com/watch?v=pJRJSQUpH8M",
         icon: Icons.youtube,
         navbar: false,
       },
