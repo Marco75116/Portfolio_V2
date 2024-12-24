@@ -256,7 +256,7 @@ export const DATA = {
         {
           title: "Demo",
           icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=pJRJSQUpH8M&feature=youtu.be",
+          href: "https://youtu.be/X1wFc1a9A38?si=6T4Z74L-ZjZr0AWi",
         },
       ],
     },
