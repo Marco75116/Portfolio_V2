@@ -86,7 +86,7 @@ export const DATA = {
       start: "2023",
       end: "",
       description:
-        "-Power blockchain services, ensuring its security, efficiency and scalability. \n(+600M $ TVL). \n-[Telegram Bot](https://t.me/UNCXInfoBot) which retrieves data from over 14 contracts across 5 chains.\n (+93 groups integrated +68k members). \n-Run [+40 subgraphs](https://thegraph.com/explorer?search=UNCX) and some [squids](https://www.sqd.dev/).",
+        "-Power blockchain services, ensuring its security, efficiency and scalability. \n(+600M $ TVL). \n-[Telegram Bot](https://t.me/UNCXInfoBot) which retrieves data from over 14 contracts across 5 chains.\n (+93 groups integrated +68k members). \n-Run [+40 subgraphs](https://thegraph.com/explorer?search=UNCX).\n-Run [Squid's](https://www.sqd.dev/) multichain indexer, combining on-chain and off-chain data.\n(Retrieve real-time data from Uniswap V4, V3, and V2, erc20 balances and states for multiple others smart contracts.)",
     },
     {
       company: "PyratzLabs",
