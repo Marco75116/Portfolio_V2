@@ -19,6 +19,7 @@ export const DATA = {
     "Elysia",
     "Foundry",
     "Wagmi.sh",
+    "Shadcn",
     "Typescript",
     "Solidity",
     "Python",
