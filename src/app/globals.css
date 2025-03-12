@@ -142,3 +142,16 @@ code[data-line-numbers-max-digits="2"] > [data-line]::before {
 code[data-line-numbers-max-digits="3"] > [data-line]::before {
   width: 3rem;
 }
+
+.markdown-content a {
+  color: #3b82f6; /* blue-500 */
+  text-decoration: underline;
+  transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.markdown-content a:hover {
+  color: #1d4ed8; /* blue-700 */
+}

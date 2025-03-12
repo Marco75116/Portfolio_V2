@@ -98,7 +98,7 @@ export const DATA = {
       start: "2022",
       end: "2023",
       description:
-        "-Building and maintaining Tezos/EVM applications. Marketplace for utility nfts -  [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh). \n-Coach during [tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
+        "-Building and maintaining Tezos/EVM applications. Marketplace for utility nfts and  [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh). \n-Coach during [tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
     },
     {
       company: "Stoa COFI",

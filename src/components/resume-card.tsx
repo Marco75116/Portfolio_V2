@@ -5,11 +5,10 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { ChevronRightIcon } from "lucide-react";
+import { ChevronRightIcon, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import Markdown from "react-markdown";
-
 interface ResumeCardProps {
   logoUrl: string;
   altText: string;
@@ -91,16 +90,31 @@ export const ResumeCard = ({
             initial={{ opacity: 0, height: 0 }}
             animate={{
               opacity: isExpanded ? 1 : 0,
-
               height: isExpanded ? "auto" : 0,
             }}
             transition={{
               duration: 0.7,
               ease: [0.16, 1, 0.3, 1],
             }}
-            className="mt-2 text-xs sm:text-sm whitespace-pre-line"
+            className="mt-2 text-xs sm:text-sm whitespace-pre-line px-6 pb-4"
           >
-            <Markdown className="underline-links">{description}</Markdown>
+            <Markdown
+              className="markdown-content"
+              components={{
+                a: ({ node, ...props }) => (
+                  <a
+                    {...props}
+                    className="text-blue-500 hover:text-blue-700 inline-flex items-center gap-0.5"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {props.children}
+                  </a>
+                ),
+              }}
+            >
+              {description}
+            </Markdown>
           </motion.div>
         )}
       </div>
