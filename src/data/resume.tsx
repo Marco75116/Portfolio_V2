@@ -145,6 +145,37 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Keeper telegram Bot",
+      href: "https://www.deepl.com/fr/translator#en/fr/coming%20soon%20new%20version/",
+      dates: "2025",
+      active: true,
+      description:
+        "Designed and developed an innovative blockchain gaming experience featuring AI-powered characters and incentivized social engagement. Created a Telegram bot integration with wallet functionalities that manages token-based gameplay and rewards. 40K monthly users",
+      technologies: [
+        "Bun",
+        "Telegraf",
+        "Viem",
+        "Ton Sol Evm Stars payments",
+        "Redis",
+        "Postgres",
+        "Drizzle-orm",
+      ],
+      links: [
+        {
+          type: "X",
+          href: "https://x.com/theyumparty",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Bot",
+          href: "https://github.com/Marco75116/keeper-bot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/yumlogo.png",
+      video: "",
+    },
+    {
       title: "Misti",
       href: "https://misti-doc-api.vercel.app/",
       dates: "2024",
@@ -200,6 +231,7 @@ export const DATA = {
       image: "/unilogo.png",
       video: "",
     },
+
     {
       title: "Bot",
       href: "https://github.com/Marco75116/Bot-python-Dofus",
