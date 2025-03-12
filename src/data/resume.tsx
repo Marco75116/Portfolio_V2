@@ -29,7 +29,9 @@ export const DATA = {
     "EVM",
     "DEFI",
     "UniV3",
+    "UniV4",
     "AI API",
+    "Telegram API",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
