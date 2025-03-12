@@ -89,6 +89,18 @@ export const DATA = {
         "-Power blockchain services, ensuring its security, efficiency and scalability. \n(+600M $ TVL). \n-[Telegram Bot](https://t.me/UNCXInfoBot) which retrieves data from over 14 contracts across 5 chains.\n (+93 groups integrated +68k members). \n-Run [+40 subgraphs](https://thegraph.com/explorer?search=UNCX).\n-Run [Squid's](https://www.sqd.dev/) EVM multichain indexers, combining on-chain and off-chain data.\n-Run Squid's SOLANA indexers.\n(Retrieve real-time data from Uniswap V4, V3, and V2, erc20 balances and states for multiple others smart contracts.)",
     },
     {
+      company: "ESGI - School of Computer Engineering",
+      href: "https://www.esgi.fr/",
+      badges: [],
+      location: "Paris, France",
+      title: "Blockchain Instructor",
+      logoUrl: "/esgilogo.png",
+      start: "2024",
+      end: "2024",
+      description:
+        "Teaching a comprehensive blockchain course 'Blockchain Fundamentals and Programming' that covers core concepts, underlying technologies, and practical implementation. Students learn Solidity development with Foundry framework, indexers and web3 front-end, culminating in the ability to build complete decentralized applications (dApps) from scratch.",
+    },
+    {
       company: "PyratzLabs",
       badges: [],
       href: "https://www.pyratzlabs.com/",
