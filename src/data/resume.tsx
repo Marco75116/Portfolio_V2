@@ -149,7 +149,7 @@ export const DATA = {
   projects: [
     {
       title: "Keeper telegram Bot",
-      href: "https://www.deepl.com/fr/translator#en/fr/coming%20soon%20new%20version/",
+      href: "https://t.me/perceval_templar_bot",
       dates: "2025",
       active: true,
       description:
@@ -173,6 +173,11 @@ export const DATA = {
           type: "Bot",
           href: "https://github.com/Marco75116/keeper-bot",
           icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "telegram",
+          href: "https://t.me/perceval_templar_bot",
+          icon: <Icons.telegramWhite className="size-3" />,
         },
       ],
       image: "/yumlogo.png",
