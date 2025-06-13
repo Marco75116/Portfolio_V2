@@ -148,6 +148,24 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Uniswap Signals",
+      href: "https://t.me/UniswapListingsSqd",
+      dates: "2024",
+      active: true,
+      description:
+        "Get real-time alerts for new Uniswap V4 pool creations over Ethereum, Base, and Unichain—only when they're fully initialized with liquidity and tradable.",
+      technologies: ["Squid", "ElysiaJS", "Hasura", "Telegraf"],
+      links: [
+        {
+          type: "Telegram",
+          href: "https://t.me/UniswapListingsSqd",
+          icon: <Icons.telegramWhite className="size-3" />,
+        },
+      ],
+      image: "/uniswapsignalspool.jpeg",
+      video: "",
+    },
+    {
       title: "Keeper telegram Bot",
       href: "https://t.me/perceval_templar_bot",
       dates: "2025",
