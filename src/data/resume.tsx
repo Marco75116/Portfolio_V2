@@ -8,7 +8,7 @@ export const DATA = {
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/Paris",
   description:
-    "Fullstack Blockchain Engineer. I like hacking and perfecting myself. Currently building ... 🛠",
+    "Backend Blockchain Engineer. I like hacking and perfecting myself. Currently building ... 🛠",
   summary:
     "After purchasing in 2018 a Flux masternode like an investment, I dug into a lot of notions related to this new technology. Quicly, I decided to take my skills further by specializing in the blockchain in my engeneering school, at [ESILV](https://www.esilv.fr/en/programmes/master-degree-engineering/majors/fintech/). It didn't take much more than a [hackathon](#hackathons) win to decide to join professionally and dedicate myself 100% to the blockchain industry.",
   avatarUrl: "/me.jpg",
