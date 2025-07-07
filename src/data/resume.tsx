@@ -291,6 +291,26 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "ETHGlobal Cannes",
+      dates: "2025",
+      location: "Cannes, France",
+      description:
+        "Modern DeFi vault interface for Euler Protocol with real-time analytics and positions management.",
+      image: "/ethglovalcannelogo.png",
+      links: [
+        {
+          title: "Project",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://ethglobal.com/showcase/sigmavault-y5msg",
+        },
+        {
+          title: "Euler Finance",
+          icon: <Award className="h-4 w-4" />,
+          href: "https://www.euler.finance/",
+        },
+      ],
+    },
+    {
       title: "ETHGlobal Brussels",
       dates: "2024",
       location: "Brussels, Belgium",
