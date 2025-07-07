@@ -80,8 +80,20 @@ export const DATA = {
 
   work: [
     {
+      company: "Subsquid Contributor ",
+      href: "https://sqd.dev/",
+      badges: [],
+      location: "Remote",
+      title: "Contributor",
+      logoUrl: "/subsquid.webp",
+      start: "2025",
+      end: "",
+      description:
+        "-Contributing to this indexer project by creating templates for Uniswap V3 and V4",
+    },
+    {
       company: "UNCX Network",
-      href: "https://atomic.finance",
+      href: "https://uncx.network/",
       badges: [],
       location: "Remote",
       title: "Back End Developer",
