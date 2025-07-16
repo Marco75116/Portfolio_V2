@@ -111,7 +111,7 @@ export const DATA = {
       title: "Blockchain Instructor",
       logoUrl: "/esgilogo.png",
       start: "2024",
-      end: "2024",
+      end: "2025",
       description:
         "-Teaching a comprehensive blockchain course 'Blockchain Fundamentals and Programming' that covers core concepts, underlying technologies, and practical implementation. Students learn Solidity development with Foundry framework, indexers and web3 front-end, culminating in the ability to build complete decentralized applications (dApps) from scratch.",
     },
