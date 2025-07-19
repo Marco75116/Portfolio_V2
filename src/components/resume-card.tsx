@@ -3,9 +3,15 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { ChevronRightIcon, ExternalLink } from "lucide-react";
+import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import Markdown from "react-markdown";
@@ -42,18 +48,32 @@ export const ResumeCard = ({
 
   return (
     <Card className="flex">
-      <Link href={href || "#"} className="block" target="_blank" rel="noopener noreferrer">
-        <div className="flex-none">
-          <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
-            <AvatarImage
-              src={logoUrl}
-              alt={altText}
-              className="object-contain"
-            />
-            <AvatarFallback>{altText[0]}</AvatarFallback>
-          </Avatar>
-        </div>
-      </Link>
+      <TooltipProvider>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Link
+              href={href || "#"}
+              className="block"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex-none">
+                <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
+                  <AvatarImage
+                    src={logoUrl}
+                    alt={altText}
+                    className="object-contain"
+                  />
+                  <AvatarFallback>{altText[0]}</AvatarFallback>
+                </Avatar>
+              </div>
+            </Link>
+          </TooltipTrigger>
+          <TooltipContent>
+            <p>Visit {title}</p>
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
       <div className="flex-grow ml-4 items-center flex-col group">
         <span onClick={handleClick} className="cursor-pointer">
           <CardHeader>

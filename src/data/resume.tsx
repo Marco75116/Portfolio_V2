@@ -80,7 +80,7 @@ export const DATA = {
 
   work: [
     {
-      company: "Subsquid Contributor ",
+      company: "Subsquid",
       href: "https://sqd.dev/",
       badges: [],
       location: "Remote",
@@ -111,7 +111,7 @@ export const DATA = {
       title: "Blockchain Instructor",
       logoUrl: "/esgilogo.png",
       start: "2024",
-      end: "2025",
+      end: "",
       description:
         "-Teaching a comprehensive blockchain course 'Blockchain Fundamentals and Programming' that covers core concepts, underlying technologies, and practical implementation. Students learn Solidity development with Foundry framework, indexers and web3 front-end, culminating in the ability to build complete decentralized applications (dApps) from scratch.",
     },
@@ -132,7 +132,7 @@ export const DATA = {
       badges: [],
       href: "https://www.cofi.money/",
       location: "Remote",
-      title: "Full-stack Developer - Freelance",
+      title: "Full-stack Developer",
       logoUrl: "/cofilogo.jpeg",
       start: "2021",
       end: "2022",
