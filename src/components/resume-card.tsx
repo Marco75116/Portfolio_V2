@@ -42,7 +42,7 @@ export const ResumeCard = ({
 
   return (
     <Card className="flex">
-      <Link href={href || "#"} className="block">
+      <Link href={href || "#"} className="block" target="_blank" rel="noopener noreferrer">
         <div className="flex-none">
           <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
             <AvatarImage
