@@ -236,7 +236,7 @@ export const DATA = {
       links: [
         {
           type: "Documentation",
-          href: "https://misti-doc-api.vercel.app/",
+          href: "https://documentation.misti.app/documentation/introduction",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -277,19 +277,7 @@ export const DATA = {
       active: true,
       description:
         "This program automates a repetitive and time-consuming activity in the Dofus game through robotic process automation, incorporating advanced analysis and decision-making capabilities",
-      technologies: [
-        "Subsquid",
-        "Golang",
-        "Next.js",
-        "Nextra",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "authjs",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Stripe",
-      ],
+      technologies: ["Python", "PIL", "Pyautogui", "Pytesseract"],
       links: [
         {
           type: "Documentation",
