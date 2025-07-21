@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Backend Blockchain Engineer. I like hacking and perfecting myself. Currently building ... 🛠",
   summary:
-    "After purchasing in 2018 a Flux masternode like an investment, I dug into a lot of notions related to this new technology. Quicly, I decided to take my skills further by specializing in the blockchain in my engeneering school, at [ESILV](https://www.esilv.fr/en/programmes/master-degree-engineering/majors/fintech/). It didn't take much more than a [hackathon](#hackathons) win to decide to join professionally and dedicate myself 100% to the blockchain industry.",
+    "After purchasing in 2018 a Flux masternode like an investment, I dug into a lot of notions related to this new technology. Quikly, I decided to take my skills further by specializing in the blockchain in my engeneering school, at [ESILV](https://www.esilv.fr/en/programmes/master-degree-engineering/majors/fintech/). It didn't take much more than a [hackathon](#hackathons) win to decide to join professionally and dedicate myself 100% to the blockchain industry.",
   avatarUrl: "/me.jpg",
   skills: [
     "Subgraph",
@@ -249,7 +249,7 @@ export const DATA = {
       dates: "2023",
       active: true,
       description:
-        "Retrieve swaps activity on Uniswap, expose metadatas andanalyze trading performance + DeFi portfolio tracker.",
+        "Retrieve swaps activity on Uniswap, expose metadatas and analyze trading performance + DeFi portfolio tracker.",
       technologies: [
         "Express",
         "Supabase",
