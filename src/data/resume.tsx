@@ -236,7 +236,7 @@ export const DATA = {
       links: [
         {
           type: "Documentation",
-          href: "https://documentation.misti.app/documentation/introduction",
+          href: "https://documentation.misti.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
