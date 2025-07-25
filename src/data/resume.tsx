@@ -214,6 +214,33 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Slot Machine Bot",
+      href: "https://t.me/Slot_Machine_tresure_bot",
+      dates: "2024",
+      active: true,
+      description:
+        "Play exciting casino slot machines directly in Telegram chat – no downloads needed, just pure gambling excitement at your fingertips! Spin to trigger winnings of up to 100x your initial stake!",
+      technologies: [
+        "Bun",
+        "Telegraf",
+        "Viem",
+        "Redis",
+        "Postgres",
+        "Dragonfly",
+        "Drizzle-orm",
+        "Crypto and Stars payments",
+      ],
+      links: [
+        {
+          type: "Telegram",
+          href: "https://t.me/Slot_Machine_tresure_bot",
+          icon: <Icons.telegramWhite className="size-3" />,
+        },
+      ],
+      image: "/slotmachine.jpg",
+      video: "",
+    },
+    {
       title: "Misti",
       href: "https://misti-doc-api.vercel.app/",
       dates: "2024",
