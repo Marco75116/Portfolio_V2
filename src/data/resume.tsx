@@ -269,25 +269,6 @@ export const DATA = {
       image: "/unilogo.png",
       video: "",
     },
-
-    {
-      title: "Bot",
-      href: "https://github.com/Marco75116/Bot-python-Dofus",
-      dates: "2021",
-      active: true,
-      description:
-        "This program automates a repetitive and time-consuming activity in the Dofus game through robotic process automation, incorporating advanced analysis and decision-making capabilities",
-      technologies: ["Python", "PIL", "Pyautogui", "Pytesseract"],
-      links: [
-        {
-          type: "Documentation",
-          href: "https://github.com/Marco75116/Bot-python-Dofus",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/dofuslogo.jpeg",
-      video: "",
-    },
   ],
   hackathons: [
     {
