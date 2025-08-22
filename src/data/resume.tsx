@@ -10,7 +10,8 @@ export const DATA = {
   description:
     "Backend Blockchain Engineer. I like hacking and perfecting myself. Currently building ... 🛠",
   summary:
-    "After purchasing in 2018 a Flux masternode like an investment, I dug into a lot of notions related to this new technology. Quikly, I decided to take my skills further by specializing in the blockchain in my engeneering school, at [ESILV](https://www.esilv.fr/en/programmes/master-degree-engineering/majors/fintech/). It didn't take much more than a [hackathon](#hackathons) win to decide to join professionally and dedicate myself 100% to the blockchain industry.",
+    "I have been actively engaged in the blockchain ecosystem since 2018, developing a strong passion for the intersection of Web3 technology and finance. I specialize in deep-diving into protocol logic, extracting and refining raw data for populating dapps or to deliver actionable insights. My drive to tackle complex challenges and continuously expand my knowledge is reflected in my active participation in several [hackathons](#hackathons).",
+
   avatarUrl: "/me.jpg",
   skills: [
     "Subgraph",
@@ -101,7 +102,7 @@ export const DATA = {
       start: "2023",
       end: "",
       description:
-        "-Power blockchain services, ensuring its security, efficiency and scalability. \n(+600M $ TVL). \n-[Telegram Bot](https://t.me/UNCXInfoBot) which retrieves data from over 14 contracts across 5 chains.\n (+93 groups integrated +68k members). \n-Run [+40 subgraphs](https://thegraph.com/explorer?search=UNCX).\n-Run Squid's EVM multichain indexers, combining on-chain and off-chain data.\n-Run Squid's SOLANA indexers.\n(Retrieve real-time data from Uniswap V4, V3, and V2, erc20 balances and states for multiple others smart contracts.)\n-Developed a webhook-based event processing system that monitors state changes (e.g., price movements) to trigger automated notifications and execute blockchain transactions in real-time.",
+        "-Power blockchain services, ensuring its security, efficiency and scalability.\n(+600M $ TVL).\n-[Telegram Bot](https://t.me/UNCXInfoBot) which retrieves data from over 14 contracts across 5 chains.\n(+93 groups integrated +68k members).\n-Run [+40 subgraphs](https://thegraph.com/explorer?search=UNCX).\n-Run Squid's EVM multichain indexers, combining on-chain and off-chain data.\n-Run Squid's SOLANA indexers.\n(Retrieve real-time data from Uniswap V4, V3, and V2, erc20 balances and states for multiple others smart contracts.)\n-Developed a webhook-based event processing system that monitors state changes (e.g., price movements) to trigger automated notifications and execute blockchain transactions in real-time.",
     },
     {
       company: "ESGI - School of Computer Engineering",
@@ -125,7 +126,7 @@ export const DATA = {
       start: "2022",
       end: "2023",
       description:
-        "-Building and maintaining Tezos/EVM applications. Marketplace for utility nfts and  [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh). \n-Coach during [tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
+        "-Building and maintaining Tezos/EVM applications. Marketplace for utility nfts and [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh).\n-Coach during [tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
     },
     {
       company: "Stoa COFI",
@@ -137,14 +138,14 @@ export const DATA = {
       start: "2021",
       end: "2022",
       description:
-        "-Implementation of the front-end, back-end and indexer of an [EVM loan protocol](https://app.cofi.money/). \n-Integration of services : KYC - Account Abstraction - On/Off ramp.",
+        "-Implementation of the front-end, back-end and indexer of an [EVM loan protocol](https://app.cofi.money/).\n-Integration of services : KYC - Account Abstraction - On/Off ramp.",
     },
   ],
   education: [
     {
       school: "Ecole Supérieur d'ingénieur Léonard de Vinci - La Défense",
       href: "https://www.esilv.fr/",
-      degree: "Engeneering Degree",
+      degree: "Engineering Degree",
       logoUrl: "/esilvlogo.png",
       description:
         "Blockchain programming, Cryptocurrency market, Cryptography, Web/Mobile Development, Machine Learning, Datascience and Statistics courses. Weeks training of Soft Skills, entrepreneurial projects.",
