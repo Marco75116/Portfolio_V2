@@ -300,6 +300,26 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "ETHGlobal Buenos Aires",
+      dates: "2025",
+      location: "Buenos Aires, Argentina",
+      description:
+        "Make smarter LP decisions with comprehensive pool analytics and profitability metrics",
+      image: "/ethglobalargentine.png",
+      links: [
+        {
+          title: "Project",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://ethglobal.com/showcase/unimagnifier-q9dz9",
+        },
+        {
+          title: "Octav",
+          icon: <Award className="h-4 w-4" />,
+          href: "https://octav.fi/",
+        },
+      ],
+    },
+    {
       title: "ETHGlobal Cannes",
       dates: "2025",
       location: "Cannes, France",
