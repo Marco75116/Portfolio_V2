@@ -15,6 +15,7 @@ import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 interface ResumeCardProps {
   logoUrl: string;
   altText: string;
@@ -122,6 +123,7 @@ export const ResumeCard = ({
           >
             <Markdown
               className="markdown-content"
+              remarkPlugins={[remarkGfm]}
               components={{
                 a: ({ node, ...props }) => (
                   <a

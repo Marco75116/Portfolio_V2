@@ -102,7 +102,7 @@ export const DATA = {
       start: "2023",
       end: "",
       description:
-        "-Power blockchain services, ensuring its security, efficiency and scalability.\n(+600M $ TVL).\n-[Telegram Bot](https://t.me/UNCXInfoBot) which retrieves data from over 14 contracts across 5 chains.\n(+93 groups integrated +68k members).\n-Run [+40 subgraphs](https://thegraph.com/explorer?search=UNCX).\n-Run Squid's EVM multichain indexers, combining on-chain and off-chain data.\n-Run Squid's SOLANA indexers.\n(Retrieve real-time data from Uniswap V4, V3, and V2, erc20 balances and states for multiple others smart contracts.)\n-Developed a webhook-based event processing system that monitors state changes (e.g., price movements) to trigger automated notifications and execute blockchain transactions in real-time.",
+        "-Power blockchain services, ensuring its security, efficiency and scalability.\n(+600M $ TVL).\n-[Telegram Bot](https://t.me/UNCXInfoBot) which retrieves data from over 14 contracts across 5 chains.\n(+93 groups integrated +68k members).\n-Run Squid's EVM multichain indexers, combining on-chain and off-chain data.\n~~-Run +40 subgraphs~~ → I've migrated them to sqd.\n-Run Squid's SOLANA indexers.\n(Retrieve real-time data from Uniswap V4, V3, and V2, erc20 balances and states for multiple others smart contracts.)\n-Developed a webhook-based event processing system that monitors state changes (e.g., price movements) to trigger automated notifications and execute blockchain transactions in real-time.",
     },
     {
       company: "ESGI - School of Computer Engineering",
