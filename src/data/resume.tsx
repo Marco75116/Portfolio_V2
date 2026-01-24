@@ -14,24 +14,36 @@ export const DATA = {
 
   avatarUrl: "/me.jpg",
   skills: [
-    "Subgraph",
+    // Indexers
     "Subsquid",
-    "Next",
-    "Elysia",
-    "Foundry",
-    "Wagmi.sh",
-    "Shadcn",
-    "Typescript",
+    "Subgraph",
+    "Sequin",
+    // Blockchain / DeFi
+    "EVM",
     "Solidity",
+    "Foundry",
+    "DEFI",
+    "Uniswap V2/V3/V4",
+    // Backend / Languages
+    "Typescript",
     "Python",
+    "Elysia",
+    "Bun",
+    // Databases
     "Postgres",
+    "Patroni",
     "Redis",
+    "Clickhouse",
+    // Infrastructure / Queues
     "BullMQ",
     "Docker",
-    "EVM",
-    "DEFI",
-    "UniV3",
-    "UniV4",
+    "Grafana",
+    "Prometheus",
+    // Frontend
+    "Next",
+    "Wagmi.sh",
+    "Shadcn",
+    // APIs
     "AI API",
     "Telegram API",
   ],
