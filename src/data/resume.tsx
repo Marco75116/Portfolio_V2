@@ -173,6 +173,24 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Agora Insights",
+      href: "https://beelink0.tailbe2e0a.ts.net/dashboard/ausd-analytics",
+      dates: "2025",
+      active: true,
+      description:
+        "Get real-time and historical metrics for the AUSD token from Agora Finance, including holder balance charts. Aggregates data from ETH, POL, MANTLE, and MONAD.",
+      technologies: ["Next", "Bun", "Shadcn", "Sqd", "Pipes", "Clickhouse"],
+      links: [
+        {
+          type: "Website",
+          href: "https://beelink0.tailbe2e0a.ts.net/dashboard/ausd-analytics",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/agora-insights.png",
+      video: "",
+    },
+    {
       title: "Uniswap Signals",
       href: "https://t.me/UniswapListingsSqd",
       dates: "2024",
