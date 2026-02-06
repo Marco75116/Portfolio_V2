@@ -71,7 +71,6 @@ export default function RootLayout({
         <Script
           src="https://umami-poocsgkg04o440ws0s04wgcg.marco33.fr/script.js"
           data-website-id="77178fd9-351d-431f-aad9-696eba0c04d4"
-          strategy="afterInteractive"
         />
       </body>
     </html>
