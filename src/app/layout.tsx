@@ -5,6 +5,7 @@ import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const fontSans = FontSans({
@@ -67,6 +68,10 @@ export default function RootLayout({
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
+        <Script
+          src="https://umami-poocsgkg04o440ws0s04wgcg.marco33.fr/script.js"
+          data-website-id="77178fd9-351d-431f-aad9-696eba0c04d4"
+        />
       </body>
     </html>
   );
