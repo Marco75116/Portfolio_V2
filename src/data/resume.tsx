@@ -13,40 +13,7 @@ export const DATA = {
     "I have been actively engaged in the blockchain ecosystem since 2018, developing a strong passion for the intersection of Web3 technology and finance. I specialize in deep-diving into protocol logic, extracting and refining raw data for populating dapps or to deliver actionable insights. My drive to tackle complex challenges and continuously expand my knowledge is reflected in my active participation in several [hackathons](#hackathons).",
 
   avatarUrl: "/me.jpg",
-  skills: [
-    // Indexers
-    "Subsquid",
-    "Subgraph",
-    "Sequin",
-    // Blockchain / DeFi
-    "EVM",
-    "Solidity",
-    "Foundry",
-    "DEFI",
-    "Uniswap V2/V3/V4",
-    // Backend / Languages
-    "Typescript",
-    "Python",
-    "Elysia",
-    "Bun",
-    // Databases
-    "Postgres",
-    "Patroni",
-    "Redis",
-    "Clickhouse",
-    // Infrastructure / Queues
-    "BullMQ",
-    "Docker",
-    "Grafana",
-    "Prometheus",
-    // Frontend
-    "Next",
-    "Wagmi.sh",
-    "Shadcn",
-    // APIs
-    "AI API",
-    "Telegram API",
-  ],
+  skills: [],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
@@ -93,7 +60,7 @@ export const DATA = {
 
   work: [
     {
-      company: "Subsquid",
+      company: "SQD",
       href: "https://sqd.dev/",
       badges: [],
       location: "Remote",
@@ -102,7 +69,8 @@ export const DATA = {
       start: "2025",
       end: "",
       description:
-        "-Contributing to this indexer project by creating templates for Uniswap V3 and [Uniswap V4](https://github.com/SQD-Boost/uniswap-v4-squid)",
+        "-Contributing to this indexer project by creating templates for Uniswap V3 and [Uniswap V4](https://github.com/SQD-Boost/uniswap-v4-squid)\n-Help SQD clients build or fix their indexers.",
+      skills: ["Typescript", "EVM", "Squid SDK", "Pipes SDK", "Postgres", "Clickhouse"],
     },
     {
       company: "UNCX Network",
@@ -114,7 +82,26 @@ export const DATA = {
       start: "2023",
       end: "",
       description:
-        "-Power blockchain services, ensuring its security, efficiency and scalability.\n(+600M $ TVL).\n-[Telegram Bot](https://t.me/UNCXInfoBot) which retrieves data from over 14 contracts across 5 chains.\n(+93 groups integrated +68k members).\n-Run Squid's EVM multichain indexers, combining on-chain and off-chain data.\n~~-Run +40 subgraphs~~ → I've migrated them to sqd.\n-Run Squid's SOLANA indexers.\n(Retrieve real-time data from Uniswap V4, V3, and V2, erc20 balances and states for multiple others smart contracts.)\n-Developed a webhook-based event processing system that monitors state changes (e.g., price movements) to trigger automated notifications and execute blockchain transactions in real-time.",
+        "-Power blockchain services, ensuring its security, efficiency and scalability.\n(+600M $ TVL).\n-[Telegram Bot](https://t.me/Unicrypt_locks) which retrieves data from over 14 contracts across 5 chains.\n(+93 groups integrated +68k members).\n-Run Squid's EVM multichain indexers, combining on-chain and off-chain data.\n~~-Run +40 subgraphs~~ → I've migrated them to sqd.\n-Run Squid's SOLANA indexers.\n(Retrieve real-time data from Uniswap V4, V3, and V2, erc20 balances and states for multiple others smart contracts.)\n-Developed a webhook-based event processing system that monitors state changes (e.g., price movements) to trigger automated notifications and execute blockchain transactions in real-time.",
+      skills: [
+        "Typescript",
+        "Python",
+        "Elysia/Bun",
+        "Solidity",
+        "EVM",
+        "DEFI",
+        "Sequin",
+        "Postgres",
+        "Redis",
+        "Clickhouse",
+        "BullMQ",
+        "Docker",
+        "Patroni",
+        "Grafana",
+        "Prometheus",
+        "Self-host / Coolify",
+        "Viem",
+      ],
     },
     {
       company: "ESGI - School of Computer Engineering",
@@ -127,6 +114,7 @@ export const DATA = {
       end: "",
       description:
         "-Teaching a comprehensive blockchain course 'Blockchain Fundamentals and Programming' that covers core concepts, underlying technologies, and practical implementation. Students learn Solidity development with Foundry framework, indexers and web3 front-end, culminating in the ability to build complete decentralized applications (dApps) from scratch.",
+      skills: ["Solidity", "Foundry", "EVM", "Squid SDK", "Indexer", "Next", "Wagmi.sh", "Viem", "Vercel"],
     },
     {
       company: "PyratzLabs",
@@ -138,7 +126,8 @@ export const DATA = {
       start: "2022",
       end: "2023",
       description:
-        "-Building and maintaining Tezos/EVM applications. Marketplace for utility nfts and [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh).\n-Coach during [tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
+        "-Building and maintaining Tezos/EVM applications. Marketplace for utility nfts and [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh).\n-Integration of services : Account Abstraction - On/Off ramp.\n-Coach during [tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
+      skills: ["EVM", "DEFI", "Next", "Wagmi.sh", "Shadcn", "Magic Wallet", "Wert"],
     },
     {
       company: "Stoa COFI",
@@ -151,6 +140,7 @@ export const DATA = {
       end: "2022",
       description:
         "-Implementation of the front-end, back-end and indexer of an [EVM loan protocol](https://app.cofi.money/).\n-Integration of services : KYC - Account Abstraction - On/Off ramp.",
+      skills: ["Typescript", "EVM", "DEFI", "Subgraph", "Next", "Sumsub", "Magic Wallet", "Transak", "Ethers"],
     },
   ],
   education: [
@@ -161,6 +151,7 @@ export const DATA = {
       logoUrl: "/esilvlogo.png",
       description:
         "Blockchain programming, Cryptocurrency market, Cryptography, Web/Mobile Development, Machine Learning, Datascience and Statistics courses. Weeks training of Soft Skills, entrepreneurial projects.",
+      skills: ["C#", "Solidity", "React Native", "Next", "Python", "PostgreSQL", "SQLite", "Hardhat", "Web3.js", "Ethers"],
     },
     {
       school: "Lycée Honorée de Balzac - 75017",
@@ -179,7 +170,7 @@ export const DATA = {
       active: true,
       description:
         "Get real-time and historical metrics for the AUSD token from Agora Finance, including holder balance charts. Aggregates data from ETH, POL, MANTLE, and MONAD.",
-      technologies: ["Next", "Bun", "Shadcn", "Sqd", "Pipes", "Clickhouse"],
+      technologies: ["Next", "Bun", "Shadcn", "Sqd", "Pipes SDK", "Clickhouse"],
       links: [
         {
           type: "Website",
@@ -279,7 +270,7 @@ export const DATA = {
       description:
         "Gateway to accurate and real-time on chain data. Misti is a powerful API built with Go & a webhook engine.",
       technologies: [
-        "Subsquid",
+        "Squid SDK",
         "Golang",
         "Next.js",
         "Nextra",

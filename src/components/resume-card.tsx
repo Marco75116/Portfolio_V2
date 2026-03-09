@@ -25,6 +25,7 @@ interface ResumeCardProps {
   badges?: readonly string[];
   period?: string;
   description?: string;
+  skills?: readonly string[];
 }
 export const ResumeCard = ({
   logoUrl,
@@ -35,6 +36,7 @@ export const ResumeCard = ({
   badges,
   period,
   description,
+  skills,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(
     title === "UNCX Network" ? true : false
@@ -139,6 +141,21 @@ export const ResumeCard = ({
             >
               {description}
             </Markdown>
+            {skills && skills.length > 0 && (
+              <div className="mt-4 pt-3 border-t border-dashed">
+                <span className="text-xs font-semibold text-muted-foreground mb-1.5 block">Skills :</span>
+                <div className="flex flex-wrap gap-1.5">
+                {skills.map((skill, index) => (
+                  <Badge
+                    className="text-xs"
+                    key={index}
+                  >
+                    {skill}
+                  </Badge>
+                ))}
+                </div>
+              </div>
+            )}
           </motion.div>
         )}
       </div>
