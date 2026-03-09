@@ -8,7 +8,7 @@ export const DATA = {
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/Paris",
   description:
-    "Backend Blockchain Engineer. I like hacking and perfecting myself. Currently building ... 🛠",
+    "Senior Backend Blockchain Engineer.",
   summary:
     "I have been actively engaged in the blockchain ecosystem since 2018, developing a strong passion for the intersection of Web3 technology and finance. I specialize in deep-diving into protocol logic, extracting and refining raw data for populating dapps or to deliver actionable insights. My drive to tackle complex challenges and continuously expand my knowledge is reflected in my active participation in several [hackathons](#hackathons).",
 
@@ -109,7 +109,7 @@ export const DATA = {
       href: "https://uncx.network/",
       badges: [],
       location: "Remote",
-      title: "Back End Developer",
+      title: "Senior Backend Developer",
       logoUrl: "/uncxnetwork_logo.jpeg",
       start: "2023",
       end: "",
