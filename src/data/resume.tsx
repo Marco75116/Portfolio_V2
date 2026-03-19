@@ -165,7 +165,7 @@ export const DATA = {
   projects: [
     {
       title: "Agora Insights",
-      href: "https://agora.marco33.fr/",
+      href: "https://agora.marco33.fr/dashboard/ausd-analytics",
       dates: "2025",
       active: true,
       description:
@@ -174,7 +174,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://agora.marco33.fr/",
+          href: "https://agora.marco33.fr/dashboard/ausd-analytics",
           icon: <Icons.globe className="size-3" />,
         },
       ],
