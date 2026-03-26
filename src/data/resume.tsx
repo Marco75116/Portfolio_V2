@@ -164,6 +164,42 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Misti",
+      href: "https://misti-doc-api.vercel.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "Gateway to accurate and real-time on chain data. Misti is a powerful Low-latency API & a webhook engine.",
+      technologies: [
+        "BetterAuth",
+        "Clickhouse",
+        "ElysiaJS",
+        "Next.js",
+        "Nextra",
+        "OpenTelemetry/Signoz",
+        "PostgreSQL",
+        "Redis",
+        "Shadcn UI",
+        "Squid Pipes",
+        "TailwindCSS",
+        "Typescript",
+      ],
+      links: [
+        {
+          type: "App",
+          href: "https://app.misti.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Documentation",
+          href: "https://doc.misti.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/bannervolcano.webp",
+      video: "",
+    },
+    {
       title: "Agora Insights",
       href: "https://agora.misti.app",
       dates: "2025",
@@ -260,36 +296,6 @@ export const DATA = {
         },
       ],
       image: "/slotmachine.jpg",
-      video: "",
-    },
-    {
-      title: "Misti",
-      href: "https://misti-doc-api.vercel.app/",
-      dates: "2024",
-      active: true,
-      description:
-        "Gateway to accurate and real-time on chain data. Misti is a powerful API built with Go & a webhook engine.",
-      technologies: [
-        "Squid SDK",
-        "Golang",
-        "Next.js",
-        "Nextra",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "authjs",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Stripe",
-      ],
-      links: [
-        {
-          type: "Documentation",
-          href: "https://doc.misti.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/bannervolcano.webp",
       video: "",
     },
     {
