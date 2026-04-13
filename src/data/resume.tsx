@@ -165,7 +165,7 @@ export const DATA = {
   projects: [
     {
       title: "Misti",
-      href: "https://misti-doc-api.vercel.app/",
+      href: "https://app.misti.app",
       dates: "2026",
       active: true,
       description:
