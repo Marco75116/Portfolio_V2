@@ -160,7 +160,7 @@ export const DATA = {
     {
       school: "Ecole Supérieure d'Ingénieurs Léonard de Vinci - La Défense",
       href: "https://www.esilv.fr/",
-      degree: "Engineering Degree | 2016 - 2021 (5 years)",
+      degree: "Engineering Degree | 2021 (5 years)",
       logoUrl: "/esilvlogo.png",
       description:
         "Major in Blockchain. Learned Blockchain programming under the Head of Ecosystem at Starknet Foundation. Coursework: Quantum Computing, Cryptography, Virtualization, Web & Mobile Development, Machine Learning, Data Science, and Statistics. Weeks of Soft Skills training and entrepreneurial projects.",
