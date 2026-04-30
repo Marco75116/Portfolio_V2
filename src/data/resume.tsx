@@ -79,8 +79,8 @@ export const DATA = {
       location: "Remote",
       title: "Senior Backend Engineer",
       logoUrl: "/uncxnetwork_logo.jpeg",
-      start: "Sept 2023",
-      end: "March 2026",
+      start: "Sep 2023",
+      end: "Mar 2026",
       description:
         "-Powered blockchain services, ensuring security, efficiency, and scalability for a +600M TVL protocol.\n-Designed and implemented ETL solutions with data ingestion and sourcing strategies using multichain indexers such as Subgraph and Squids, modeling schemas and tables across PostgreSQL and Clickhouse databases.\n-Provided unified multichain on-chain and off-chain data through GraphQL and REST endpoints, serving the app and partners like [DexTools](https://www.dextools.io/) and [DexScreener](https://dexscreener.com/).\n-Built a webhook-based event processing system using Sequin to monitor on-chain events, logs and traces across +10 smart contracts over +5 chains, powering a [Telegram Bot](https://t.me/Unicrypt_locks) with real-time notifications.\n-Co-designed and maintained a secure, self-hosted infrastructure optimized for high-throughput and low-latency, indexing millions of on-chain events and serving 10K+ API calls daily with high availability.\n-**Protocols we built services on:** Uniswap V4/V3/V2, PancakeSwap, Aerodrome and forks, LayerZero, Hyperlane, Kleros, and launchpad platforms.",
       skills: [
@@ -123,7 +123,7 @@ export const DATA = {
       location: "Remote",
       title: "Web3 Front-end Developer",
       logoUrl: "/pyratzlabs_logo.jpeg",
-      start: "Sept 2022",
+      start: "Sep 2022",
       end: "Aug 2023",
       description:
         "-Built and maintained Tezos/EVM applications. Marketplace for utility NFTs and [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh). Integration of [Magic Wallet](https://magic.link/) and [Wert](https://wert.io/) Web3 payment provider.\n-Coach during [Tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
