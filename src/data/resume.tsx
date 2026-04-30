@@ -158,12 +158,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Ecole Supérieur d'ingénieur Léonard de Vinci - La Défense",
+      school: "Ecole Supérieure d'Ingénieurs Léonard de Vinci - La Défense",
       href: "https://www.esilv.fr/",
-      degree: "Engineering Degree",
+      degree: "Engineering Degree | 2021",
       logoUrl: "/esilvlogo.png",
       description:
-        "Blockchain programming, Cryptocurrency market, Cryptography, Web/Mobile Development, Machine Learning, Datascience and Statistics courses. Weeks training of Soft Skills, entrepreneurial projects.",
+        "Major in Blockchain. Learned Blockchain programming under the Head of Ecosystem at Starknet Foundation. Coursework: Quantum Computing, Cryptography, Virtualization, Web & Mobile Development, Machine Learning, Data Science, and Statistics. Weeks of Soft Skills training and entrepreneurial projects.",
       skills: ["C#", "Solidity", "React Native", "Next", "Python", "PostgreSQL", "SQLite", "Hardhat", "Web3.js", "Ethers"],
     },
     {
@@ -182,20 +182,23 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "Full-stack SaaS platform providing real-time blockchain data via a REST API. Dashboard for API key management, usage monitoring, and billing.",
+        "Full-stack SaaS platform providing real-time blockchain data via a REST API. Dashboard for API key management, usage monitoring, and billing. Multi-database architecture (ClickHouse, PostgreSQL, DragonflyDB), cache-aside with stampede prevention, Redis Streams quota batching, circuit breakers, and OpenTelemetry tracing routed to SigNoz.",
       technologies: [
-        "BetterAuth",
-        "Clickhouse",
+        "Typescript",
+        "Bun",
         "ElysiaJS",
         "Next.js",
-        "Nextra",
-        "OpenTelemetry/Signoz",
+        "ClickHouse",
         "PostgreSQL",
+        "DragonflyDB",
         "Redis",
-        "Shadcn UI",
+        "OpenTelemetry/Signoz",
+        "Polar",
+        "Better Auth",
         "Squid Pipes",
+        "Shadcn UI",
         "TailwindCSS",
-        "Typescript",
+        "Nextra",
       ],
       links: [
         {
