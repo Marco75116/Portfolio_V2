@@ -145,7 +145,7 @@ export const DATA = {
     {
       company: "Prepar-Vie",
       badges: [],
-      href: "https://www.preparvie.fr/",
+      href: "https://www.prepar-vie.fr/",
       location: "Paris, France",
       title: "Full Stack Software Developer",
       logoUrl: "/preparvielogo.png",
