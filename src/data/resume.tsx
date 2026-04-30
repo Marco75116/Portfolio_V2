@@ -126,7 +126,7 @@ export const DATA = {
       start: "Sept 2022",
       end: "Aug 2023",
       description:
-        "-Built and maintained Tezos/EVM applications. Marketplace for utility NFTs and [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh). Integration of Magic Wallet and Wert Web3 payment provider.\n-Coach during [Tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
+        "-Built and maintained Tezos/EVM applications. Marketplace for utility NFTs and [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh). Integration of [Magic Wallet](https://magic.link/) and Wert Web3 payment provider.\n-Coach during [Tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
       skills: ["EVM", "DEFI", "Next", "Wagmi.sh", "Shadcn", "Magic Wallet", "Wert"],
     },
     {
@@ -139,7 +139,7 @@ export const DATA = {
       start: "Jan 2022",
       end: "Aug 2022",
       description:
-        "-Implementation of the front-end, back-end and indexer of an [EVM loan protocol](https://app.cofi.money/).\n-Integration of Sumsub KYC, Magic Wallet, and Transak on/off ramp.",
+        "-Implementation of the front-end, back-end and indexer of an [EVM loan protocol](https://app.cofi.money/).\n-Integration of Sumsub KYC, [Magic Wallet](https://magic.link/), and Transak on/off ramp.",
       skills: ["Typescript", "EVM", "DEFI", "Subgraph", "Next", "Sumsub", "Magic Wallet", "Transak", "Ethers"],
     },
     {
