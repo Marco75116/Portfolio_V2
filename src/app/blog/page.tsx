@@ -26,21 +26,27 @@ export default async function BlogPage() {
           }
           return 1;
         })
-        .map((post, id) => (
-          <BlurFade delay={BLUR_FADE_DELAY * 2 + id * 0.05} key={post.slug}>
-            <Link
-              className="flex flex-col space-y-1 mb-4"
-              href={`/blog/${post.slug}`}
-            >
-              <div className="w-full flex flex-col">
-                <p className="tracking-tight">{post.metadata.title}</p>
-                <p className="h-6 text-xs text-muted-foreground">
-                  {post.metadata.publishedAt}
-                </p>
-              </div>
-            </Link>
-          </BlurFade>
-        ))}
+        .map((post, id) => {
+          const isExternal = Boolean(post.metadata.url);
+          const href = post.metadata.url ?? `/blog/${post.slug}`;
+          return (
+            <BlurFade delay={BLUR_FADE_DELAY * 2 + id * 0.05} key={post.slug}>
+              <Link
+                className="flex flex-col space-y-1 mb-4"
+                href={href}
+                target={isExternal ? "_blank" : undefined}
+                rel={isExternal ? "noopener noreferrer" : undefined}
+              >
+                <div className="w-full flex flex-col">
+                  <p className="tracking-tight">{post.metadata.title}</p>
+                  <p className="h-6 text-xs text-muted-foreground">
+                    {post.metadata.publishedAt}
+                  </p>
+                </div>
+              </Link>
+            </BlurFade>
+          );
+        })}
     </section>
   );
 }
