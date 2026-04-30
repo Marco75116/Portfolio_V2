@@ -147,9 +147,9 @@ export const DATA = {
       badges: [],
       href: "https://www.prepar-vie.fr/",
       location: "Paris, France",
-      title: "Full Stack Software Developer",
+      title: "Full-Stack Software Developer",
       logoUrl: "/preparvielogo.png",
-      start: "Jan 2021",
+      start: "Sep 2021",
       end: "Aug 2022",
       description:
         "-Autonomously designed and delivered a complete internal workflow solution: requirements gathering, UI/UX design, database modeling, REST API, and testing.",
