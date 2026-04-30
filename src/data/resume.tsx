@@ -69,7 +69,7 @@ export const DATA = {
       start: "2025",
       end: "",
       description:
-        "-Contributed to this indexer project by creating templates for Uniswap V3 and [Uniswap V4](https://github.com/SQD-Boost/uniswap-v4-squid).\n-Occasionally helped SQD clients build and fix their indexers.",
+        "-Contributed to the indexer project by creating templates for Uniswap V3 and [Uniswap V4](https://github.com/SQD-Boost/uniswap-v4-squid).\n-Occasionally helped SQD clients build and fix their indexers.",
       skills: ["Typescript", "EVM", "Squid SDK", "Pipes SDK", "Postgres", "Clickhouse"],
     },
     {
@@ -113,7 +113,7 @@ export const DATA = {
       start: "2024",
       end: "2026",
       description:
-        "-Teaching a comprehensive blockchain course 'Blockchain Fundamentals and Programming' that covers core concepts, underlying technologies, and practical implementation. Students learn Solidity development with Foundry framework, indexers and web3 front-end, culminating in the ability to build complete decentralized applications (dApps) from scratch.",
+        "-Teach a comprehensive blockchain course 'Blockchain Fundamentals and Programming' that covers core concepts, underlying technologies, and practical implementation. Students learn Solidity development with Foundry framework, indexers and web3 front-end, culminating in the ability to build complete decentralized applications (dApps) from scratch.",
       skills: ["Solidity", "Foundry", "EVM", "Squid SDK", "Indexer", "Next", "Wagmi.sh", "Viem", "Vercel"],
     },
     {
@@ -134,7 +134,7 @@ export const DATA = {
       badges: [],
       href: "https://www.cofi.money/",
       location: "Remote",
-      title: "Full-stack Developer",
+      title: "Full Stack Developer",
       logoUrl: "/cofilogo.jpeg",
       start: "Jan 2022",
       end: "Aug 2022",
