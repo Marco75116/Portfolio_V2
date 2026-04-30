@@ -113,7 +113,7 @@ export const DATA = {
       start: "2024",
       end: "2026",
       description:
-        "-Teach a comprehensive blockchain course 'Blockchain Fundamentals and Programming' that covers core concepts, underlying technologies, and practical implementation. Students learn Solidity development with Foundry framework, indexers and web3 front-end, culminating in the ability to build complete decentralized applications (dApps) from scratch.",
+        "-Designed and delivered a comprehensive blockchain course covering core concepts, Solidity development with Foundry, indexers, and Web3 front-end integration, training +200 students to build complete decentralized applications from scratch.",
       skills: ["Solidity", "Foundry", "EVM", "Squid SDK", "Indexer", "Next", "Wagmi.sh", "Viem", "Vercel"],
     },
     {
