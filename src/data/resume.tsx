@@ -139,7 +139,7 @@ export const DATA = {
       start: "Jan 2022",
       end: "Aug 2022",
       description:
-        "-Implementation of the front-end, back-end and indexer of an [EVM loan protocol](https://app.cofi.money/).\n-Integration of [Sumsub](https://sumsub.com/) KYC, [Magic Wallet](https://magic.link/), and Transak on/off ramp.",
+        "-Implementation of the front-end, back-end and indexer of an [EVM loan protocol](https://app.cofi.money/).\n-Integration of [Sumsub](https://sumsub.com/) KYC, [Magic Wallet](https://magic.link/), and [Transak](https://transak.com/) on/off ramp.",
       skills: ["Typescript", "EVM", "DEFI", "Subgraph", "Next", "Sumsub", "Magic Wallet", "Transak", "Ethers"],
     },
     {
