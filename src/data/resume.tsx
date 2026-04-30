@@ -126,7 +126,7 @@ export const DATA = {
       start: "Sept 2022",
       end: "Aug 2023",
       description:
-        "-Built and maintained Tezos/EVM applications. Marketplace for utility NFTs and [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh). Integration of [Magic Wallet](https://magic.link/) and Wert Web3 payment provider.\n-Coach during [Tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
+        "-Built and maintained Tezos/EVM applications. Marketplace for utility NFTs and [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh). Integration of [Magic Wallet](https://magic.link/) and [Wert](https://wert.io/) Web3 payment provider.\n-Coach during [Tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
       skills: ["EVM", "DEFI", "Next", "Wagmi.sh", "Shadcn", "Magic Wallet", "Wert"],
     },
     {
