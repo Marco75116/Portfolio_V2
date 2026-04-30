@@ -69,7 +69,7 @@ export const DATA = {
       start: "2025",
       end: "",
       description:
-        "-Contributing to this indexer project by creating templates for Uniswap V3 and [Uniswap V4](https://github.com/SQD-Boost/uniswap-v4-squid)\n-Help SQD clients build or fix their indexers.",
+        "-Contributed to this indexer project by creating templates for Uniswap V3 and [Uniswap V4](https://github.com/SQD-Boost/uniswap-v4-squid).\n-Occasionally helped SQD clients build and fix their indexers.",
       skills: ["Typescript", "EVM", "Squid SDK", "Pipes SDK", "Postgres", "Clickhouse"],
     },
     {
@@ -82,7 +82,7 @@ export const DATA = {
       start: "Sept 2023",
       end: "March 2026",
       description:
-        "-Power blockchain services, ensuring its security, efficiency and scalability.\n(+600M $ TVL).\n-[Telegram Bot](https://t.me/Unicrypt_locks) which retrieves data from over 14 contracts across 5 chains.\n(+93 groups integrated +68k members).\n-Run Squid's EVM multichain indexers, combining on-chain and off-chain data.\n~~-Run +40 subgraphs~~ → I've migrated them to sqd.\n-Run Squid's SOLANA indexers.\n(Retrieve real-time data from Uniswap V4, V3, and V2, erc20 balances and states for multiple others smart contracts.)\n-Developed a webhook-based event processing system that monitors state changes (e.g., price movements) to trigger automated notifications and execute blockchain transactions in real-time.",
+        "-Powered blockchain services, ensuring security, efficiency, and scalability for a +600M TVL protocol.\n-Designed and implemented ETL solutions with data ingestion and sourcing strategies using multichain indexers such as Subgraph and Squids, modeling schemas and tables across PostgreSQL and Clickhouse databases.\n-Provided unified multichain on-chain and off-chain data through GraphQL and REST endpoints, serving the app and partners like [DexTools](https://www.dextools.io/) and [DexScreener](https://dexscreener.com/).\n-Built a webhook-based event processing system using Sequin to monitor on-chain events, logs and traces across +10 smart contracts over +5 chains, powering a [Telegram Bot](https://t.me/Unicrypt_locks) with real-time notifications.\n-Co-designed and maintained a secure, self-hosted infrastructure optimized for high-throughput and low-latency, indexing millions of on-chain events and serving 10K+ API calls daily with high availability.\n-**Protocols we built services on:** Uniswap V4/V3/V2, PancakeSwap, Aerodrome and forks, LayerZero, Hyperlane, Kleros, and launchpad platforms.",
       skills: [
         "Typescript",
         "Python",
@@ -126,7 +126,7 @@ export const DATA = {
       start: "Sept 2022",
       end: "Aug 2023",
       description:
-        "-Building and maintaining Tezos/EVM applications. Marketplace for utility nfts and [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh).\n-Integration of services : Account Abstraction - On/Off ramp.\n-Coach during [tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
+        "-Built and maintained Tezos/EVM applications. Marketplace for utility NFTs and [Leverage yield farming](https://youtu.be/yeJi6pIHAzs?si=z5iOJFuD2sYIRMxh). Integration of Magic Wallet and Wert Web3 payment provider.\n-Coach during [Tezos hackathons](https://www.linkedin.com/posts/nomadic-labs_hackathon-tezos-blockchain-activity-7049050354893606914-omZv?utm_source=share&utm_medium=member_desktop).",
       skills: ["EVM", "DEFI", "Next", "Wagmi.sh", "Shadcn", "Magic Wallet", "Wert"],
     },
     {
@@ -139,7 +139,7 @@ export const DATA = {
       start: "Jan 2022",
       end: "Aug 2022",
       description:
-        "-Implementation of the front-end, back-end and indexer of an [EVM loan protocol](https://app.cofi.money/).\n-Integration of services : KYC - Account Abstraction - On/Off ramp.",
+        "-Implementation of the front-end, back-end and indexer of an [EVM loan protocol](https://app.cofi.money/).\n-Integration of Sumsub KYC, Magic Wallet, and Transak on/off ramp.",
       skills: ["Typescript", "EVM", "DEFI", "Subgraph", "Next", "Sumsub", "Magic Wallet", "Transak", "Ethers"],
     },
     {
@@ -182,7 +182,7 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "Gateway to accurate and real-time on chain data. Misti is a powerful Low-latency API & a webhook engine.",
+        "Full-stack SaaS platform providing real-time blockchain data via a REST API. Dashboard for API key management, usage monitoring, and billing.",
       technologies: [
         "BetterAuth",
         "Clickhouse",
